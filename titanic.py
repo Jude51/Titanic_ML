@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
-titanic=pd.read_csv(r"C:\Users\CAT\Downloads\titanic\train.csv")
+titanic=pd.read_csv(r".csv")
 print(titanic.head)
 print(titanic.info)
 print(titanic.shape)
